@@ -3,7 +3,7 @@ import styles from './PostContent.module.css';
 
 export default function PostContent({ children, coverPicture, title }) {
   return (
-    <article className={styles.PostContent}>
+    <article className={styles.postContent}>
       <div 
         className={styles.coverPicture}
         style={{ backgroundImage: `url(${coverPicture})` }}
@@ -12,7 +12,7 @@ export default function PostContent({ children, coverPicture, title }) {
 
       <h2 className={styles.title}>{title}</h2>
 
-      <div className={styles.PostContentContainer}>
+      <div className={styles.postContentContainer}>
         {children}
       </div>
     </article>
