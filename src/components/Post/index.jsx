@@ -11,6 +11,8 @@ export default function Post() {
 
   const post = posts.find((post) => post.id === Number(param.id));
 
+  if (!post) return <h1>Post não encontrado!</h1>
+
   return (
     <PostContent
       coverPicture={`/assets/posts/${post.id}/cover.png`}

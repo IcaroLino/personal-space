@@ -1,6 +1,7 @@
 import Footer from "components/Footer";
 import Post from "components/Post";
 import DefaultPage from "pages/DefaultPage";
+import NotFound from "pages/NotFound";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import AboutMe from "./pages/AboutMe";
@@ -18,7 +19,7 @@ function AppRoutes() {
           <Route path="post/:id" element={<Post />} />
         </Route>
 
-        <Route path="*" element={<div>Página não encontrada</div>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       
       <Footer />
