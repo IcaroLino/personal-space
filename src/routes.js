@@ -12,8 +12,8 @@ function AppRoutes() {
 
       <Routes>
         <Route path="/" element={<DefaultPage />}>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/aboutMe" element={<AboutMe />} />
+          <Route index element={<HomePage />} />
+          <Route path="aboutMe" element={<AboutMe />} />
         </Route>
 
         <Route path="*" element={<div>Página não encontrada</div>} />
