@@ -6,7 +6,7 @@ import myPicture from 'assets/my_picture.png';
 export default function Banner() {
   return (
     <div className={styles.banner}>
-      <div className={styles.apresentacao}>
+      <div>
         <h1 className={styles.title}>
           Olá, Mundo!
         </h1>
