@@ -1,5 +1,5 @@
 import Footer from "components/Footer";
-import Post from "components/Post";
+import Post from "pages/Post";
 import DefaultPage from "pages/DefaultPage";
 import NotFound from "pages/NotFound";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
