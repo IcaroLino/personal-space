@@ -21,7 +21,7 @@ export default function AboutMe() {
       />
 
       <p className={styles.paragraph}>
-        Oi, tudo bem? Eu sou desenvoveldor FullStack em formação e estou feliz de te ver por aqui.
+        Oi, tudo bem? Eu sou desenvolvedor FullStack em formação e estou feliz de te ver por aqui.
       </p>
       <p className={styles.paragraph}>
         Minha história com programação começou no Instituto Federal do Rio Grande do Norte (IFRN), quando fiz o ensino médio integrado ao curso de Informática. Eu aprendi lógica de programação e o básico de várias linguagens, como PHP, Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava muito de estudar programação, mas na época não fazia ideia de que trabalharia com isso hoje.
